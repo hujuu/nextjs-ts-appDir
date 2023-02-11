@@ -3,6 +3,11 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  images: {
+    domains: [
+      "s.gravatar.com",
+    ],
+  },
 }
 
 module.exports = nextConfig
